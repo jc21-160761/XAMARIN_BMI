@@ -6,9 +6,8 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry Placeholder="身長" x:Name="sin" /><Entry Placeholder="体重" x:Name="tai" />
+        <Button Text="計算" x:Name="btn" /><Label Text="ここに表示" x:Name="lbl" />
     </StackLayout>
 
 </ContentPage>
